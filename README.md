@@ -36,11 +36,7 @@ Through interactive visuals, this project tells the story of water access, queue
 
 ## Data Source
 
-Instead of connecting directly to a SQL database, this project uses a structured **Excel workbook** containing multiple related tables.
-
-You can download the file [here](https://github.com/lawaloa/Visual_2/blob/main/Md_water_services_data.xlsx)
-
-Using Excel as the data source simplifies ingestion while still enabling robust relational modeling within Power BI.
+Instead of connecting directly to a SQL database, this project uses a structured **Excel workbook** containing multiple related tables. You can download the file [here](https://github.com/lawaloa/Visual_2/blob/main/Md_water_services_data.xlsx). Using Excel as the data source simplifies ingestion while still enabling robust relational modeling within Power BI.
 
 ---
 
@@ -52,10 +48,12 @@ Key steps include:
 - Importing multiple tables from a single Excel workbook
 - Defining relationships between entities such as:
   - Water sources
-  - Communities
-  - Queue records
-  - Pollution data
-  - Crime statistics
+  - Visits
+  - Queue Composition
+  - Project progress
+  - Location
+  - Well Pollution
+  - Water Source Related Crime
 - Ensuring correct cardinality and filter direction to support accurate analysis
 
 This model enables seamless cross-table analysis and more meaningful visualizations.
