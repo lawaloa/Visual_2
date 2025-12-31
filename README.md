@@ -28,8 +28,7 @@ The goal is to transform raw data into compelling visual narratives that support
 
 *A picture is worth a thousand words.*
 
-Data visualization allows us not only to extract insights from complex datasets but also to communicate those insights clearly and effectively.  
-In this project, I move beyond a single-table analysis to leverage **Power BI’s data modeling capabilities**, integrating multiple datasets to uncover deeper patterns and relationships.
+Data visualization allows us not only to extract insights from complex datasets but also to communicate those insights clearly and effectively. In this project, I move beyond a single-table analysis to leverage **Power BI’s data modeling capabilities**, integrating multiple datasets to uncover deeper patterns and relationships.
 
 Through interactive visuals, this project tells the story of water access, queue dynamics, pollution, and public safety across Maji Ndogo.
 
@@ -37,9 +36,9 @@ Through interactive visuals, this project tells the story of water access, queue
 
 ## Data Source
 
-Instead of connecting directly to a SQL database, this project uses a structured **Excel workbook** containing multiple related tables:
+Instead of connecting directly to a SQL database, this project uses a structured **Excel workbook** containing multiple related tables.
 
-- **File:** `Md_water_services_data.xlsx`
+You can download the file [here](https://github.com/lawaloa/Visual_2/blob/main/Md_water_services_data.xlsx)
 
 Using Excel as the data source simplifies ingestion while still enabling robust relational modeling within Power BI.
 
@@ -60,6 +59,13 @@ Key steps include:
 - Ensuring correct cardinality and filter direction to support accurate analysis
 
 This model enables seamless cross-table analysis and more meaningful visualizations.
+
+<details>
+<summary>Click to view chart</summary>
+  
+![Data Model for Maji Ndogo water_services database](https://github.com/lawaloa/Visual_2/blob/main/Data_Model.png?raw=true)
+
+</details>
 
 ---
 
